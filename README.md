@@ -89,6 +89,7 @@ HLT;
 ![Sub 2](https://user-images.githubusercontent.com/93427253/189385018-03dbf1ce-d03d-425e-b32f-56b8fa962eb8.png)
 
 ## Multiplication of 8 bit ALP
+```
 name "MULTIPLICATION"
 org 700h
 MOV AL,15H;
@@ -97,6 +98,8 @@ MUL BL;
 MOV CL,AL;
 MOV AL,00H;
 HLT;
+```
+
 ## Output  
 ![Mul](https://user-images.githubusercontent.com/93427253/189387733-46260ec2-a62c-4db7-9574-8ed4ac11d5d5.png)
 ![Mul 1](https://user-images.githubusercontent.com/93427253/189387766-f91bde00-188c-44c1-bf3d-5de5ad699042.png)
@@ -105,6 +108,7 @@ HLT;
 ![Mul 2](https://user-images.githubusercontent.com/93427253/189387835-23446350-70ac-41d2-b2f6-abccd6fe314c.png)
 
 ## Division of 8 bit ALP
+```
 name "DIVISION"
 org 700h
 MOV AL,40H;
@@ -113,6 +117,8 @@ DIV BL;
 MOV CL,AL;
 MOV AL,00H;
 HLT;
+```
+
 ## Output  
 ![Div](https://user-images.githubusercontent.com/93427253/189387924-a05b47e7-55f9-44d3-a9d5-8c41bcc13da3.png)
 ![div 1](https://user-images.githubusercontent.com/93427253/189387945-50cf6447-c57a-47d8-8623-68f02c2678dd.png)
